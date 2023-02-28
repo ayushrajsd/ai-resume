@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+form {
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ddd;
+}
+h3 {
+  margin: 15px 0;
+}
+button {
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+  background-color: #5d3891;
+  border: none;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.app > p {
+  margin-bottom: 30px;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid #ddd;
+  background: transparent;
+}
+.nestedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.photoSection {
+  justify-content: start;
+}
+
+.sectionPart {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+.workHistory {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  background-color: #eee;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.companyDetails {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.btn_grp {
+  width: 20%;
+}
+.companyNameAndPos {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.startAndEnd {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.achievements {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+textarea {
+  border: 2px solid #ccc;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.companies {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.companies label {
+  margin-bottom: 5px;
+}
+.currentInput {
+  width: 95%;
+}
+.photoLabel {
+  margin-top: 3%;
+}
+
+#addBtn {
+  background-color: green;
+  margin-right: 5px;
+}
+#deleteBtn {
+  background-color: red;
+}
+.container {
+  min-height: 100vh;
+  padding: 30px;
+}
+.header {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 10vh;
+  background-color: #e8e2e2;
+  padding: 30px;
+  border-radius: 3px 3px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resumeTitle {
+  opacity: 0.6;
+}
+.headerTitle {
+  margin-bottom: 15px;
+}
+.resumeImage {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.resumeBody {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  min-height: 80vh;
+  border: 1px solid #e0e0ea;
+}
+.resumeBodyTitle {
+  margin-bottom: 5px;
+}
+.resumeBodyContent {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.loadingImg {
+  width: 500px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
